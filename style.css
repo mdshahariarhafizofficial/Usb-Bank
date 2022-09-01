@@ -1,0 +1,36 @@
+body{
+    padding: 100px;
+}
+#main-section{
+    width: 40%;
+    margin: 0 auto;
+}
+#login-form{
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+#balance-section{
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+.balance-custom{
+    color: White;
+    padding: 40px;
+    border-radius: 20px;
+}
+.deposit{
+    background: #6610f2;
+}
+.withdraw{
+    background: #FFA07A;
+}
+.balance{
+    background: orange;
+}
+.withdraw-ammount{
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}

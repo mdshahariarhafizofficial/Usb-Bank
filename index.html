@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usb Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section id="main-section">
+        <div class="container">
+            <h1 id="login-header" class="text-center fw-bold my-5">Welcome to Usb Bank</h1>
+            <div id="login-form">
+                <h4 class="my-3">Login</h4>
+                <input type="email" class="form-control mb-4" placeholder="Enter your @email address">
+                <input type="password" class="form-control mb-4" placeholder="Enter your password now">
+                <button id="login-btn" class="btn btn-primary mb-3">Login Now</button>
+            </div>
+        </div>
+    </section>
+
+
+        <section id="balance-section" class="my-5">
+            <div class="container">
+                <h2 class="text-center fw-bold mb-5">Your Account Balance</h2>
+                <div class="row m-auto">
+                    <div class="col-md-4">
+                        <div class="deposit balance-custom">
+                            <h4 class="fw-bold ">Deposit</h4>
+                            <h2>$<span id="deposit-amount">00</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="withdraw balance-custom">
+                            <h4 class="fw-bold">Withdraw</h4>
+                            <h2>$<span id="withdraw-amount">00</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="balance balance-custom">
+                            <h4 class="fw-bold">Balance</h4>
+                            <h2>$<span id="current-balance">1200</span></h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="withdraw-ammount">
+                            <h4 class="fw-bold">Deposit</h4>
+                            <input id="deposit-input" type="text" class="form-control mb-4" placeholder="$ Enter your amount. you want to deposit">
+                            <button id="deposit-btn" class="btn btn-primary">Deposit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="withdraw-ammount">
+                            <h4 class="fw-bold">Withdraw</h4>
+                            <input id="withdraw-input" type="text" class="form-control mb-4" placeholder="$ Enter your amount. you want to Withdraw">
+                            <button id="withdraw-btn" class="btn btn-primary">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+    <script src="bank.js"></script>
+</body>
+</html>
